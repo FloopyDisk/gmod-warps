@@ -9,7 +9,7 @@ local function SendCommand(ply, text)
     y = -5247 -- These Cordinates bring you to the big admin area in rp_downtown_tits_v1
     z = -108
     
-    if ( string.lower( text ) == "/sit" ) then
+    if ( string.lower( text ) == "/admin" ) then
         if table.HasValue( AllowedGroups, ply:GetUserGroup() ) then
             ply:SetPos( Vector(x, y, z) )
 			      return ""
